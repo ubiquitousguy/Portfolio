@@ -18,7 +18,11 @@ body {
 	margin: 0 auto;
 	clear: both;
 }
+<<<<<<< HEAD
 h1,
+=======
+h1, 
+>>>>>>> 1fbb57ceb3c6ada4189d1878f1dffb084363ecba
 h2,
 h3,
 p {
@@ -74,11 +78,17 @@ h3 {
 	text-decoration: none;
 }
 
+<<<<<<< HEAD
 .navbar {
 	float: right;
 	padding-top: 30px;
 	font-size: 20px;
 
+=======
+nav {
+	float: right;
+	margin-top: 25px;
+>>>>>>> 1fbb57ceb3c6ada4189d1878f1dffb084363ecba
 }
 
 nav a {
@@ -106,10 +116,13 @@ footer {
 	color: #ccc;
 	font-size: 12px;
 	text-align: center;
+<<<<<<< HEAD
 	height: 50px;
 }
 .footer-container {
 	padding-top: 18px;
+=======
+>>>>>>> 1fbb57ceb3c6ada4189d1878f1dffb084363ecba
 }
 
 /*sidebar*/
@@ -237,6 +250,7 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 #masthead nav {
+<<<<<<< HEAD
 	float: none;
 
  }
@@ -294,11 +308,30 @@ input[type=submit] {
 }
 #logo {
 	/*width: 30%;*/
+=======
+	 float: none;
+ }
+.sidebar {
+	float: left;
+}
+
+ footer {
+   position: relative;
+ }
+
+@media screen and (max-width: 768px) {
+#masthead nav {
+	 float: none;
+ }
+.sidebar {
+	float: left;
+>>>>>>> 1fbb57ceb3c6ada4189d1878f1dffb084363ecba
 }
 
 footer {
    position: relative;
  }
+<<<<<<< HEAD
 }
  @media screen and (max-width: 640px) {
 #masthead nav{
@@ -334,3 +367,20 @@ footer {
  		position: relative;
  	}
 }
+=======
+
+ @media screen and (max-width: 640px) {
+#masthead nav {
+	 float: left;
+	 position: static;
+ }
+
+.sidebar {
+	float: left;
+}
+
+  footer {
+ 		position: relative;
+ 	}	
+
+>>>>>>> 1fbb57ceb3c6ada4189d1878f1dffb084363ecba
