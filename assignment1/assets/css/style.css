@@ -18,11 +18,7 @@ body {
 	margin: 0 auto;
 	clear: both;
 }
-<<<<<<< HEAD
 h1,
-=======
-h1, 
->>>>>>> 1fbb57ceb3c6ada4189d1878f1dffb084363ecba
 h2,
 h3,
 p {
@@ -31,6 +27,7 @@ p {
 
 p:last-child {
 	margin-bottom: 0;
+	line-height: 2;
 }
 
 h1, h2, h3 {
@@ -78,17 +75,10 @@ h3 {
 	text-decoration: none;
 }
 
-<<<<<<< HEAD
 .navbar {
 	float: right;
-	padding-top: 30px;
-	font-size: 20px;
-
-=======
-nav {
-	float: right;
-	margin-top: 25px;
->>>>>>> 1fbb57ceb3c6ada4189d1878f1dffb084363ecba
+	/*margin-top: 25px;*/
+	padding-bottom: 25px;
 }
 
 nav a {
@@ -99,6 +89,8 @@ nav a {
 	border-left: 1px solid #efefef;
 	padding-left: 15px;
 	line-height: 18px;
+	padding-top: 30px;
+	font-size: 20px;
 }
 
 nav a:first-child {
@@ -116,13 +108,10 @@ footer {
 	color: #ccc;
 	font-size: 12px;
 	text-align: center;
-<<<<<<< HEAD
 	height: 50px;
 }
 .footer-container {
 	padding-top: 18px;
-=======
->>>>>>> 1fbb57ceb3c6ada4189d1878f1dffb084363ecba
 }
 
 /*sidebar*/
@@ -135,6 +124,7 @@ footer {
 	float: right;
 	border: 1px solid #ddd;
 	margin-bottom: 20px;
+
 }
 
 h3,
@@ -143,11 +133,13 @@ h3,
 	padding-bottom: 20px;
 	margin-bottom: 15px;
 	line-height: 22px;
+	font-size: 26px;
+	font-weight:normal;
 }
 
 .social {
-	width: 60px;
-	height: 60px;
+	width: 62px;
+	height: 62px;
 	margin-top: 8px;
 	margin-right: 5px;
 }
@@ -169,6 +161,10 @@ h3,
 	max-width: 650px;
 	float: left;
 	border: 1px solid #ddd;
+}
+.main-section h1 {
+	font-size: 28px;
+	font-weight: normal;
 }
 
 /*portfolio page*/
@@ -250,27 +246,22 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 #masthead nav {
-<<<<<<< HEAD
-	float: none;
-
- }
+	width: 100%;
+}
  .container {
- 	width: 100%;
+ 	max-width: 100%;
  }
-.navbar {
-	width: 100%;
-	padding-top: 30px;
-	/*margin-left: 600px;*/
-	padding-bottom: 30px;
-	/*float: right;*/
-	position: static;
-}
-.sidebar {
-	float: left;
+ .navbar {
+	/*padding-top: 30px;
+ 	padding-bottom: 30px;*/
+ 	/*position: static;*/
+  }
+ .sidebar {
 	max-width: 100%;
-}
+	float: left;
+ }
 .work {
-	width: 100%;
+	max-width: 100%;
 }
 
 #logo {
@@ -285,11 +276,12 @@ input[type=submit] {
 @media screen and (max-width: 768px) {
 #masthead nav{
 	 float: none;
-	 text-align: center;
+
  }
 .navbar {
- 	width: 100%;
-	float: right;
+	text-align: center;
+	width: 100%;
+	/*float: right;*/
 
  }
  .container {
@@ -300,48 +292,34 @@ input[type=submit] {
 	 max-width: 100%;
  }
 .sidebar {
-	float: left;
+	float: none;
 	max-width: 100%;
 }
 .work {
-	width: 100%;
+	max-width: 100%;
 }
 #logo {
-	/*width: 30%;*/
-=======
-	 float: none;
- }
-.sidebar {
-	float: left;
-}
 
+	 /*float: none;*/
+ }
  footer {
    position: relative;
  }
 
-@media screen and (max-width: 768px) {
-#masthead nav {
-	 float: none;
- }
-.sidebar {
-	float: left;
->>>>>>> 1fbb57ceb3c6ada4189d1878f1dffb084363ecba
-}
-
-footer {
-   position: relative;
- }
-<<<<<<< HEAD
 }
  @media screen and (max-width: 640px) {
 #masthead nav{
 	 float: left;
-	 text-align: center;
  }
- .navbar {
-	 width: 100%;
+.navbar {
+	text-align: center;
+	max-width: 80%;
+	margin: 0 auto;
+	margin-bottom: -25px;
+}
+ #logo {
+ 	width: 100%;
  }
-
  .container {
  	width: 100%;
  }
@@ -352,35 +330,13 @@ footer {
 	 float: left;
  }
  .work {
- 	width: 50%;
+ 	max-width: 100%;
  }
-
-
 .sidebar {
 	float: left;
 	max-width: 100%;
 }
-#logo {
-	width: 100%;
-}
+
 footer {
  		position: relative;
  	}
-}
-=======
-
- @media screen and (max-width: 640px) {
-#masthead nav {
-	 float: left;
-	 position: static;
- }
-
-.sidebar {
-	float: left;
-}
-
-  footer {
- 		position: relative;
- 	}	
-
->>>>>>> 1fbb57ceb3c6ada4189d1878f1dffb084363ecba
